@@ -1,0 +1,53 @@
+.img {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.centre-logo {
+    margin-top: 200px;
+}
+
+li {
+    float: left;
+}
+
+  ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li a {
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  color: black;
+  font-family: arial,sans-serif;
+  font-size: 14px;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  text-decoration: underline;
+}
+
+input {
+    width: 600px;
+    height: 40px;
+    border-radius: 25px;
+    border: 0.6px solid lightgray;
+    padding: 10px 0px 10px 20px ;
+    font-size: 14px;
+}
+
+input:focus, input:hover{
+    outline: none;
+    box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
+}
+
